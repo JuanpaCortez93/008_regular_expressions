@@ -1,0 +1,7 @@
+\w - caracteres
+\d - digitos
+\s - espacios/invisibles en blanco
+[0-9] - \d
+[a-zA-Z_] - \w
+* - greedy - uno o todo
++ - uno o más

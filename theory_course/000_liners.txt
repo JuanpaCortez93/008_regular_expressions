@@ -1,0 +1,38 @@
+#AD4523
+
+1
+12
+123
+1234
+12345     
+12345g678910
+12345678910aaa
+13453243%
+url: https://www.instagram.com/p/BXB4zsUlW5_Z/?taken-by=beco.mx
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+
+http://instagram.com/p/blablablah jdkdjdkj
+
+
+csv1,csv2,csv3,csv4,csv5
+
+Rodrigo Jiménez Gutiérrez
+
+5556581111
+56-58-11-12
+302-345-9876
+56 58 11 12
+56.58.11.12
+
+esto.es.un.mail_gmail@mail.com
+esto.es.un.mail_gmail@mail.edu.ec
+dominio.com
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [LOG] [user:@beco] Clicked here
+[LOG ENTRY] [LOG] [user:@beco] Rated the app
+[LOG ENTRY] [LOG] [user:@beco] Logged out

@@ -1,0 +1,7 @@
+Cuantificación en expresiones regulares:
+? -> El signo de interrogación indica que el carácter que le precede puede aparecer como mucho una vez. Por ejemplo, “ob?scuro” se corresponde con oscuro y obscuro.
++ -> El signo más indica que el carácter que le precede debe aparecer al menos una vez. Por ejemplo, “ho+la” describe el conjunto infinito hola, hoola, hooola, hoooola, etcétera.
+* -> El asterisco indica que el carácter que le precede puede aparecer cero, una, o más veces. Por ejemplo, “0*42” se corresponde con 42, 042, 0042, 00042, etcétera.
+
+
+
