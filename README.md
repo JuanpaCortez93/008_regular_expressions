@@ -10,3 +10,5 @@ The objectives of this course and project are the following:
 2. Using REGEXps in various programming languages
 3. Using characters, operators, and constructs to define regular expressions
 4. Understanding what regular expressions are and what they are used for
+
+You can check my project in the following direction: https://juanpacortez93.github.io/008_regular_expressions/
