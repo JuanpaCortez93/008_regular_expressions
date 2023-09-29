@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+    
+    <main>
+        <form action="" class="form" id="form">
+            <!-- Username -->
+            <div class="form__group" id="user__group">
+                <label for="user" class="form__label">User</label>
+                <div class="form__group-input">
+                    <input role="text" type="text" class="form__input" autocomplete="off" name="user" id="user" placeholder="Enter your username here">
+                    <i class="fa fa-times-circle-o form__validation-state inactive" aria-hidden="true"></i>
+                </div>
+                <p class="form__input-error">User need to have between 4 and 16 digits and it only can have numbers, letters, and underscore</p>
+            </div>
+
+            <!-- Name -->
+            <div class="form__group" id="user__name">
+                <label for="name" class="form__label">Name</label>
+                <div class="form__group-input">
+                    <input role="text" type="text" class="form__input" autocomplete="off" name="name" id="name" placeholder="Enter your complete name here">
+                    <i class="fa fa-times-circle-o form__validation-state inactive" aria-hidden="true"></i>
+                </div>
+                <p class="form__input-error">User need to have between 4 and 16 digits. You need to write one first and last name at least</p>
+            </div>
+
+            <!-- Password -->
+            <div class="form__group" id="user__password">
+                <label for="password" class="form__label">Password</label>
+                <div class="form__group-input">
+                    <input role="text" type="password" class="form__input" autocomplete="off" name="password" id="password" placeholder="Enter your password here">
+                    <i class="fa fa-times-circle-o form__validation-state inactive" aria-hidden="true"></i>
+                </div>
+                <p class="form__input-error">Password must have between 4 and 16 digits.</p>
+            </div>
+
+            <!-- Password verify-->
+            <div class="form__group" id="user__password2">
+                <label for="password2" class="form__label">Repeat password</label>
+                <div class="form__group-input">
+                    <input role="text" type="password" class="form__input" autocomplete="off" name="password2" id="password2" placeholder="Enter your password here">
+                    <i class="fa fa-times-circle-o form__validation-state inactive" aria-hidden="true"></i>
+                </div>
+                <p class="form__input-error">Passwords must be equal.</p>
+            </div>
+
+            <!-- Email -->
+            <div class="form__group" id="user__email">
+                <label for="email" class="form__label">Email</label>
+                <div class="form__group-input">
+                    <input role="text" type="email" class="form__input" autocomplete="off" name="email" id="email" placeholder="Enter your email here">
+                    <i class="fa fa-times-circle-o form__validation-state inactive" aria-hidden="true"></i>
+                </div>
+                <p class="form__input-error">User's email must have @ and an extension (eg. ec/mx/co/us)</p>
+            </div>
+
+            <!-- Telephone -->
+            <div class="form__group" id="user__telephone">
+                <label for="telephone" class="form__label">Telephone</label>
+                <div class="form__group-input">
+                    <input role="text" type="text" class="form__input" autocomplete="off" name="telephone" id="telephone" placeholder="Enter your telephone here">
+                    <i class="fa fa-times-circle-o form__validation-state inactive" aria-hidden="true"></i>
+                </div>
+                <p class="form__input-error">User's telephone need to have 10 digits</p>
+            </div>
+
+            <!-- Terms and Conditions -->
+            <div class="form__group-terms" id="group_terms">
+                <label class="form__label">
+                    <input class="form__checkbox" type="checkbox" name="terms" id="terms">
+                    I accept terms and conditions
+                </label>
+            </div>
+        
+            <!-- Submit -->
+            <div class="form__message" id="form__message">
+                <p><i class="fa fa-triangle-exclamation"></i> <b>Error: </b>Fill out the form as well as required</p>
+            </div>
+
+            <!-- Send Info -->
+            <div class="form__group form__group-btn-send">
+                <button type="submit" class="form__btn">Send information</button>
+                <p class="form__message-success">Form sent successfully to nowhere! This is just a project resource!</p>
+            </div>
+        </form>
+    </main>
+
+
+    <script src="./controllers/app.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

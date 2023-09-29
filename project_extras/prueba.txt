@@ -1,0 +1,16 @@
+/[a-z]{6,}@?gmail\.com
+
+a
+adios@gmail.com
+
+
+b
+prueba@gmail.com
+
+
+c
+nada@gmail.com
+
+
+d
+hola_3@gmail.com
